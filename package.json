@@ -45,7 +45,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "stylelint": "^16.1.0",
+    "stylelint-config-clean-order": "^5.4.0",
     "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
     "typescript": "~5.2.2"
   }
 }
