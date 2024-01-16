@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "lint:style": "npx stylelint '**/*.scss'"
   },
   "private": true,
   "dependencies": {
@@ -44,10 +45,12 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.2.2",
     "stylelint": "^16.1.0",
     "stylelint-config-clean-order": "^5.4.0",
-    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.0",
     "typescript": "~5.2.2"
   }
 }
