@@ -4,6 +4,8 @@
 	],
   "extends": [
     "stylelint-config-standard-scss",
-    "stylelint-config-clean-order/error"
-    ]
+    "stylelint-config-clean-order/error",
+    "stylelint-prettier/recommended"
+  ]
+
 }
